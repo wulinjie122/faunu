@@ -1,0 +1,1 @@
+### 监控spring schedule运行情况，web管理界面和邮件预警功能，无侵入时开源jar包。
