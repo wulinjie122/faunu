@@ -7,11 +7,11 @@
  * in the user guide at https://docs.gradle.org/4.10.3/userguide/multi_project_builds.html
  */
 
-rootProject.name = 'faunu'
+rootProject.name = 'chaos'
 
-include 'faunu-client','faunu-core'
+include 'chaos-client','chaos-core'
 
 // 迭代访问所有根目录下的子项目，设置自定义的构建脚本名称
 rootProject.children.each {
-    it.buildFileName = it.name + '.gradle' - 'faunu-'
+    it.buildFileName = it.name + '.gradle' - 'chaos-'
 }

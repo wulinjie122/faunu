@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zendaimoney.chaos.spring.ChaosAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+com.zendaimoney.chaos.spring.ChaosApplicationContextInitializer

@@ -28,7 +28,7 @@ allprojects {
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 
-    group 'com.zendaimoney.faunu'
+    group 'com.zendaimoney.chaos'
     version '0.0.1'
 
     repositories {
@@ -46,10 +46,10 @@ allprojects {
 
     dependencies {
         // spring
-        compile 'org.springframework:spring-context:4.2.8.RELEASE'
-        compile 'org.springframework:spring-context-support:4.2.8.RELEASE'
+        compileOnly 'org.springframework:spring-context:4.2.8.RELEASE'
+        compileOnly 'org.springframework:spring-context-support:4.2.8.RELEASE'
         // spring boot
-        compile 'org.springframework.boot:spring-boot-autoconfigure:2.1.1.RELEASE'
+        compileOnly 'org.springframework.boot:spring-boot-autoconfigure:2.1.1.RELEASE'
         // lombok
         compileOnly 'org.projectlombok:lombok:1.18.4'
         // guava
