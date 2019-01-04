@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.zendaimoney.faunu.spring.FaunuAutoConfiguration
-org.springframework.context.ApplicationContextInitializer=\
-com.zendaimoney.faunu.spring.FaunuApplicationContextInitializer
